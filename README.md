@@ -49,13 +49,20 @@ En Spring MVC, algunas anotaciones comunes incluyen:
 
 * @Controller: Esta anotación registra el controlador para Spring MVC.
 * @RequestMapping: Esta anotación se encarga de relacionar un método con una petición HTTP.
-Además, existen otras anotaciones como @Component, @Repository y @Service que son especializaciones de @Component, añadiendo un valor semántico que indica la utilidad de la clase anotada (@Repository para acceso a BD y @Service para la capa de negocio). Estas anotaciones pueden ser utilizadas en lugar de @Controller dependiendo del propósito específico del bean en tu aplicación.
+Además, existen otras anotaciones como @Component, @Repository y @Service que son especializaciones de @Component, añadiendo un valor semántico que indica la utilidad 
+de la clase anotada (@Repository para acceso a BD y @Service para la capa de negocio). Estas anotaciones pueden ser utilizadas en lugar de @Controller dependiendo del 
+propósito específico del bean en tu aplicación.
 
 ### PARTE III. - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful
 
 - ¿Qué es RESTful?
+
+RESTful es una forma de diseñar aplicaciones web de manera organizada y fácil de entender. Se basa en tratar las partes de una aplicación como si fueran objetos o cosas 
+a las que se puede acceder a través de la web. En lugar de usar acciones complicadas, se utilizan direcciones web (URLs) para acceder y manipular estos objetos. 
 - Si utilizo un framework como [Boostrap CSS](https://getbootstrap.com/) para qué el apartado gráfico se vea más profesional, ¿en qué capa se haría su uso?
 
+La utilizamos en la ultima parte donde mostramos los detalles del usuario en la página web
+![img.png](src/main/resources/img/img.png)
 ### PARTE IV. - APLICACIÓN MVC JUEGO
 
 - ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
