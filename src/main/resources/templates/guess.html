@@ -2,9 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Juego de Adivinar el Número</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
-<h1>Juego de Adivinar el Número</h1>
+    <h1>Juego de Adivinar el Número</h1>
 <p>Tu premio actual es de $<span th:text="${prize}"></span></p>
 <form action="/guess" method="post">
     <label for="numero">Ingresa un número del 1 al 10:</label>
