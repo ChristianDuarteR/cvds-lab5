@@ -66,4 +66,13 @@ La utilizamos en la ultima parte donde mostramos los detalles del usuario en la 
 ### PARTE IV. - APLICACIÓN MVC JUEGO
 
 - ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
+
+Si abres el sitio de juegos en dos navegadores diferentes, cada navegador creará su propia sesión independiente. 
+Esto significa que cada jugador verá sus propios saldos y jugará de manera independiente sin interferir en las 
+sesiones del otro jugador. Cada sesión se identifica por un identificador único asociado al navegador o al usuario, 
+por lo que no habrá conflictos entre las sesiones de los dos jugadores.
 - Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?
+  
+Para que a cada jugador le aparezcan independientemente sus respectivos saldos y estados del juego, necesitas 
+implementar un sistema de manejo de sesiones en tu aplicación web. El manejo de sesiones te permite mantener 
+datos específicos de cada usuario, como el saldo y el estado del juego, de manera individualizada.
